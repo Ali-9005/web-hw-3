@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    flex-flow: column wrap;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+    line-height: 75px;
+}
+
+.image {
+    margin: 10px;
+}
+
+.padding {
+    padding-top: 100px;
+}
+.image img {
+    width: 300px;
+    height: 500px;
+}
+
+header {
+    padding-top: 100px;
+}
+#text {
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+    width: fit-content;
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+}
